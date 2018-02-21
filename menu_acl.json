@@ -1,0 +1,14 @@
+{
+	"Guest" : {
+		"menu_login" : "page/login",
+		"menu_register" : "page/register"
+	},
+	"LoggedIn" : {
+		"menu_friend_requests" : "",
+		"menu_messages" : "",
+		"menu_notifications" : "",
+		"menu_profile" : {
+			"submenu_profile" : ""
+		}
+	}
+}

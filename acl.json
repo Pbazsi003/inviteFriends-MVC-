@@ -1,0 +1,17 @@
+{
+	"Guest" : {
+		"denied" : {
+			"Profile": ["index"]
+		},
+		"Home" : ["*"],
+		"Page" : ["*"], 
+		"Restricted" : ["*"]
+	},
+	"LoggedIn" : {
+		"denied" : {
+			"Page" : ["register", "login"]
+		},
+		"Home" : ["*"],
+		"Page" : ["logout"]
+	}
+}
