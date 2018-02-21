@@ -1,0 +1,60 @@
+.wrapper .website-header {
+	width: 100%;
+	height: 50px;
+	background-color: #FB3434;
+	border-bottom: 4px solid #DE0000;
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+	position: fixed;
+}
+
+.wrapper .main-header .header-top .navbar .menu-clear:before
+.wrapper .main-header .header-top .navbar .menu-clear:after {
+	content: " ";
+	display: table;
+}
+
+.wrapper .main-header .header-top .navbar .menu-clear:after {
+	clear: both;
+}
+
+.wrapper .main-header .header-top .navbar .menu-clear .navbar-container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.wrapper .main-header .header-top .navbar .menu-clear .navbar-container .menu-logo {
+	float: left;
+	padding: 3px;
+}
+	
+.wrapper .main-header .header-top .navbar .menu-clear .navbar-container .menu-logo .menu-logo-a {
+	font-family: "Lobster Two";
+	font-size: 35px;
+	font-style: italic;
+	font-weight: 700;
+	color: #fff;
+}
+
+.wrapper .main-header .header-top .navbar .menu-clear .navbar-container .collapse .navbar-nav {
+	float: right;
+}
+
+.wrapper .main-header .header-top .navbar .menu-clear .navbar-container .collapse .navbar-nav .nav-item {
+	list-style: none;
+	float: left;
+}
+
+.wrapper .main-header .header-top .navbar .menu-clear .navbar-container .collapse .navbar-nav .nav-item .nav-link {
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 16px;
+	display: block;
+	transition: background-color 300ms;
+}
+
+.wrapper .main-header .header-top .navbar .menu-clear .navbar-container .collapse .navbar-nav .nav-item .nav-link:hover {
+	background-color: #DE0000;
+	transition: background-color 300ms;
+}
